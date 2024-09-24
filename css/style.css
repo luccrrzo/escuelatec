@@ -1,0 +1,44 @@
+#cabeza{
+    padding: 30px;
+    background: #d69c15;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#textcabeza{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    
+}
+#cabezaimg{
+   padding: 15px;
+}
+body{
+    background-image:url(https://periodicoparatodos.com.ar/wp-content/uploads/2022/08/33a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedorcarru{
+    display:inline-flex;
+    flex-direction: column;
+    padding-left: 2.5%;
+    padding-top: 2.5%;
+}
+.col1 {
+    width: 100%;
+    
+ }
+ .col2 {
+    border: white;
+    background: grey;
+    width: 50%;
+}
+
+ .row {
+   display: flex;
+   width: 100%;
+}
+.carousel-item img{ width:80%; height:80%;}
+
